@@ -1,0 +1,16 @@
+# Node modules (Angular)
+Calculator Angular/node_modules/
+
+# Angular build output
+Calculator Angular/dist/
+
+# Spring Boot build output
+Calculator-Spring/target/
+
+# IDE & system files
+*.log
+*.iml
+.idea/
+.vscode/
+.DS_Store
+
