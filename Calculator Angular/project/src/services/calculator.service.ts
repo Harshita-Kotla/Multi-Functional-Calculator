@@ -14,7 +14,8 @@ import {
   providedIn: 'root'
 })
 export class CalculatorService {
-  private baseUrl = 'http://localhost:8080/api';
+  // ✅ Correct backend URL
+  private baseUrl = 'https://multi-functional-calculator-backend.onrender.com/api';
 
   constructor(private http: HttpClient) {}
 
